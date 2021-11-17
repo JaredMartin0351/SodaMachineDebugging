@@ -1,4 +1,3 @@
-# This is a sample Python script.
 from simulation import Simulation
 
 

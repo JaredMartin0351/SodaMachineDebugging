@@ -1,5 +1,7 @@
 import os
-
+# This file is meant to be imported as a module, not a class. 
+# This is similar to how the random module is imported.
+# Do not create a User Interface class in this file. 
 
 def simulation_main_menu():
     """Main menu prompting user to choose an option"""
@@ -67,7 +69,7 @@ def continue_prompt(text):
 
 
 def soda_selection(inventory):
-    """Displays purchasable soda inventory and """
+    """Displays purchasable soda inventory and prompts user to select a can."""
     validated_user_selection = (False, None)
     soda_options = get_unique_can_names(inventory)
     while validated_user_selection[0] is False:

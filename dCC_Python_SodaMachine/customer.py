@@ -1,4 +1,6 @@
-
+from wallet import Wallet
+from backpack import Backpack
+import user_interface
 
 class Customer:
     def __init__(self):

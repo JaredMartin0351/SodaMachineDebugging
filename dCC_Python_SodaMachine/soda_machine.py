@@ -1,4 +1,5 @@
-
+import cans
+import coins
 
 class SodaMachine:
     def __init__(self):
